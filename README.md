@@ -9,3 +9,8 @@ As this is intended to be a proof of concept, build, setup, usage and deployment
 In late January of 2016, a website at crashsafari.com popped up. People around the world sent the link to their friends only to have their browsers slow down and completely stop responding. All these years later, this trick still works just as it did back in 2016.
 ## Explanation
 This exploit abuses the [HTML5 pushState](https://developer.mozilla.org/en-US/docs/Web/API/History_API) to crash a browser by injecting a very long string into the URL and recording it to the browser's history. The browser can not handle that string, causing the browser completely inoperable. The string the browser is trying to record to it's history is the result of counting from 1-100000, for example 0123456789101112. Because this takes advantage of a necessary feature for modern web browsers, it's difficult to impossible to fix.
+
+## Browsers Tested
+*Please submit a pull request if you got this payload working on a browser not listed below!*
+### Google Chrome 
+* Version 80.0.3987.116 (Official Build) (64-bit)
