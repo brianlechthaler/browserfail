@@ -1,3 +1,3 @@
 FROM nginx:stable-alpine
-COPY ./payload.html /var/www/html/
+COPY ./payload.html /usr/local/nginx/html/
 EXPOSE 80
