@@ -4,7 +4,8 @@
     <h1>What were you expecting?</h1>
     <button>type="button" id="activatePayload" Click to crash your browser</button>
     <script>
-      var killBrowser = function() {
+      var killBrowser = function(e) {
+        e.preventDefault();
         var total = "";
         for( var i = 0; i < 100000; i++ ) {
             total = total + i.toString();
