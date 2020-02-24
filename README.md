@@ -1,7 +1,7 @@
 # browserfail
 Crash any modern browser with simple JavaScript. 
 ## DISCLAIMER!
-**What you do with this repository is solely YOUR responsibility.** I did not write the payload for this exploit. It was copied from the original crashsafari.com, now defunct. I have not nor do I intend to host this anywhere publicly in any capacity.  Only test this on systems you have explicit permission to test this on 
+**What you do with this repository is solely YOUR responsibility.** I did not write the payload for this exploit. It was copied from the original crashsafari.com, now defunct. I have not nor do I intend to host this anywhere publicly in any capacity.  Only test this on systems you have explicit permission to test this on. The payload will not execute unless you click a button that tells you it will crash your browser, unlike the original from CrashSafari that executes without asking.
 
 As this is intended to be a proof of concept, build, setup, usage and deployment instructions will not be availible.
 
