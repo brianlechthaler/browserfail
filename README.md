@@ -14,3 +14,8 @@ This exploit abuses the [HTML5 pushState](https://developer.mozilla.org/en-US/do
 *Please submit a pull request if you got this payload working on a browser not listed below!*
 ### Google Chrome 
 * Version 80.0.3987.116 (Official Build) (64-bit)
+
+## References
+Gibbs, S. (2016, January 25). Sending link to website lets you crash Safari and anyone's iPhone. Retrieved from https://www.theguardian.com/technology/2016/jan/25/sending-link-to-website-lets-you-crash-safari-and-anyones-iphone
+
+History API. (2020, February 24). Retrieved from https://developer.mozilla.org/en-US/docs/Web/API/History_API
